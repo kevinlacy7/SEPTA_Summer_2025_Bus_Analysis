@@ -7,6 +7,8 @@
 
 &gt; A strategic, C-level analysis of **Summer 2025 APC stop-summary data** covering **127 bus and trackless trolley routes**, **18,088 stop-direction records**, and **4,293,991 weekly riders** — answering four executive questions on revenue, efficiency, growth, and resource allocation.
 
+![Executive Summary Dashboard](screenshots/Screenshot%20KPI_EXEC_SUMMARY_OVERVIEW.png)
+
 ---
 
 ## 📋 Table of Contents
@@ -19,7 +21,6 @@
 - [Methodology](#-methodology)
 - [Validation Numbers](#-validation-numbers)
 - [Assumptions & Notes](#-assumptions--notes)
-- [Suggested Screenshots](#-suggested-screenshots)
 - [How to Use This Workbook](#-how-to-use-this-workbook)
 
 ---
@@ -38,22 +39,40 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 ## 🔍 Key Findings at a Glance
 
 ### 1️⃣ Revenue & Profitability
+
+![Revenue vs Cost — Break-Even Analysis](screenshots/Screenshot%20Revenue_vs_Cost.png)
+
 - 💰 **64 routes (50%) operate below break-even** on the cost proxy ($2.25 fare per boarding; cost = $50/stop + $0.10 per weekly rider)
 - ⭐ **Route 47 is the star performer** with **167,195 weekly riders** — the clear #1 route in the network
 - 📉 Only 20 of 127 routes (Premier + High tiers) average above ~80K weekly riders; the bottom 26 routes form the underperforming tail
 
+![Performance Matrix — Stars vs. Dogs](screenshots/Screenshot%20Performance_Matrix.png)
+
+![Route Tier Distribution](screenshots/Screenshot%20Tier_Distribution.png)
+
 ### 2️⃣ Operational Efficiency
+
+![Day Type Breakdown — Weekday vs. Weekend](screenshots/Screenshot%20Day_type_Breakdown.png)
+
 - 📏 **Routes with &lt;200m stop spacing perform best** (~37K average weekly ridership) — tighter spacing correlates with higher demand capture
 - 📊 **Pareto concentration: the top 10% of stops carry 55.4% of all ridership**
 - 🛑 Network averages: 199m stop spacing, 43 boardings per stop
 
 ### 3️⃣ Strategic Growth & Network Design
+
+![Transfer Hubs — Top Multi-Route Stops](screenshots/Screenshot%20Transfer_Hubs.png)
+
 - 🔄 **Frankford Transit Center is the #1 hub** — 12 routes, 36,797 combined weekly riders — followed by the 69th St Transit Center complex (~95K combined weekly riders)
 - 🚇 **39 routes are commuter-heavy** (&lt;15% weekend usage); only 1 route is weekend-heavy (&gt;30%), confirming a weekday-commuter-dominated network
 
 ### 4️⃣ Resource Allocation
+
+![Distance Analysis — Ridership Decay from Center](screenshots/Screenshot%20Distance_Analysis.png)
+
 - 🏙️ **34.5% of ridership occurs within 5km of the city center**, decaying sharply with distance (543 avg riders/stop at 0–2km vs. 38 beyond 30km)
 - ↔️ **Routes 47 and 23 show massive directional imbalances**, suggesting schedule-optimization opportunities by direction and day type
+
+![Directional Imbalance — Net Flow by Route](screenshots/Screenshot%20Directional_Imbalance.png)
 
 ---
 
@@ -177,19 +196,19 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 
 ---
 
-## 📸 Suggested Screenshots
+## 🚀 How to Use This Workbook
 
-&gt; Drop these images into a `/screenshots` folder and embed them above each section for maximum impact.
+1. Start at `Executive Summary` for the headline story
+2. Use `4_Strategic_Exec_Questions` to navigate by business question
+3. Drill into the analysis sheets (Rankings → Matrix → Revenue vs Cost → Hubs → Distance) for supporting evidence
+4. Reference `Summer_2025_StopSummary_(Bus)` for any stop-level audit of the source records
 
-1. **Executive Summary** — KPI cards and key metrics overview
-2. **Performance Matrix** — Stars vs. Dogs quadrant scatter chart
-3. **Revenue vs Cost** — scatter with break-even line (64 routes below)
-4. **Tier Distribution** — Premier/High/Medium/Low pie chart
-5. **Day Type Breakdown** — weekday vs. weekend ridership comparison
-6. **Transfer Hubs** — top multi-route stops table/map
-7. **Distance Analysis** — ridership decay from city center
-8. **Directional Imbalance** — net flow bar chart
+---
 
-**Example embed:**
-```markdown
-![Executive Summary Dashboard](screenshots/executive_summary.png)
+## 📬 Contact
+
+Questions or feedback? Open an issue in this repository.
+
+---
+
+⭐ *If you found this analysis useful, consider starring the repo!*
