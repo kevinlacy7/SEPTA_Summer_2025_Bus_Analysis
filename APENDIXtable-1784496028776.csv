@@ -1,0 +1,14 @@
+﻿Scene,Sheet / Visual,Key Callout
+0 — Hook,`Executive Summary` KPI block,"4,293,991 weekly riders"
+1 — Revenue,`Revenue vs Cost` scatter + break-even line,64 routes (50%) below break-even
+1 — Revenue,`Route Rankings` top 15,"Route 47: 167,195"
+1 — Revenue,`Tier Distribution` pie,74 Low-tier routes (58.3%)
+1 — Revenue,`Performance Matrix` quadrant scatter,Stars vs. Dogs
+2 — Efficiency,`Top Busiest Stops` top 20,Top 10% stops = 55.4% of ridership
+2 — Efficiency,`Day Type Breakdown`,Weekend = 18.6% of revenue
+3 — Growth,`Transfer Hubs` top 20 (+ map if available),"Frankford TC: 12 routes, 36,797"
+3 — Growth,`Executive Summary` metrics,39 commuter-heavy routes
+4 — Allocation,`Distance Analysis` table,34.5% within 5km; 543 → 38 decay
+4 — Allocation,`Route Direction Performance`,"47 Southbound: 30,619"
+4 — Allocation,`Directional Imbalance` bar chart,Net flow outliers
+5 — Close,`4_Strategic_Exec_Questions` + `Executive Summary`,Four-point recommendation recap
