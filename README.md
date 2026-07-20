@@ -7,7 +7,7 @@
 
 &gt; A strategic, C-level analysis of **Summer 2025 APC stop-summary data** covering **127 bus and trackless trolley routes**, **18,088 stop-direction records**, and **4,293,991 weekly riders** — answering four executive questions on revenue, efficiency, growth, and resource allocation.
 
-![Executive Summary Dashboard](screenshots/Screenshot%20KPI_EXEC_SUMMARY_OVERVIEW.png)
+![Executive Summary Dashboard](screenshots/screenshot_kpi_exec_summary_overview.png)
 
 ---
 
@@ -40,19 +40,19 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 
 ### 1️⃣ Revenue & Profitability
 
-![Revenue vs Cost — Break-Even Analysis](screenshots/Screenshot%20Revenue_vs_Cost.png)
+![Revenue vs Cost — Break-Even Analysis](screenshots/screenshot_revenue_vs_cost.png)
 
 - 💰 **64 routes (50%) operate below break-even** on the cost proxy ($2.25 fare per boarding; cost = $50/stop + $0.10 per weekly rider)
 - ⭐ **Route 47 is the star performer** with **167,195 weekly riders** — the clear #1 route in the network
 - 📉 Only 20 of 127 routes (Premier + High tiers) average above ~80K weekly riders; the bottom 26 routes form the underperforming tail
 
-![Performance Matrix — Stars vs. Dogs](screenshots/Screenshot%20Performance_Matrix.png)
+![Performance Matrix — Stars vs. Dogs](screenshots/screenshot_performance_matrix.png)
 
-![Route Tier Distribution](screenshots/Screenshot%20Tier_Distribution.png)
+![Route Tier Distribution](screenshots/screenshot_tier_distribution.png)
 
 ### 2️⃣ Operational Efficiency
 
-![Day Type Breakdown — Weekday vs. Weekend](screenshots/Screenshot%20Day_type_Breakdown.png)
+![Day Type Breakdown — Weekday vs. Weekend](screenshots/screenshot_day_type_breakdown.png)
 
 - 📏 **Routes with &lt;200m stop spacing perform best** (~37K average weekly ridership) — tighter spacing correlates with higher demand capture
 - 📊 **Pareto concentration: the top 10% of stops carry 55.4% of all ridership**
@@ -60,19 +60,19 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 
 ### 3️⃣ Strategic Growth & Network Design
 
-![Transfer Hubs — Top Multi-Route Stops](screenshots/Screenshot%20Transfer_Hubs.png)
+![Transfer Hubs — Top Multi-Route Stops](screenshots/screenshot_transfer_hubs.png)
 
 - 🔄 **Frankford Transit Center is the #1 hub** — 12 routes, 36,797 combined weekly riders — followed by the 69th St Transit Center complex (~95K combined weekly riders)
 - 🚇 **39 routes are commuter-heavy** (&lt;15% weekend usage); only 1 route is weekend-heavy (&gt;30%), confirming a weekday-commuter-dominated network
 
 ### 4️⃣ Resource Allocation
 
-![Distance Analysis — Ridership Decay from Center](screenshots/Screenshot%20Distance_Analysis.png)
+![Distance Analysis — Ridership Decay from Center](screenshots/screenshot_distance_analysis.png)
 
 - 🏙️ **34.5% of ridership occurs within 5km of the city center**, decaying sharply with distance (543 avg riders/stop at 0–2km vs. 38 beyond 30km)
 - ↔️ **Routes 47 and 23 show massive directional imbalances**, suggesting schedule-optimization opportunities by direction and day type
 
-![Directional Imbalance — Net Flow by Route](screenshots/Screenshot%20Directional_Imbalance.png)
+![Directional Imbalance — Net Flow by Route](screenshots/screenshot_directional_imbalance.png)
 
 ---
 
@@ -118,6 +118,8 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 | **Source system** | APC (Automated Passenger Counter) |
 | **Core ridership fields** | `Weekdays_O`, `Weekdays_1`, `Saturdays_`, `Saturdays1`, `Sundays_On`, `Sundays_Of` |
 | **Geography** | Latitude/longitude retained as numeric fields for map-ready analysis |
+
+![Raw APC Stop-Summary Data](screenshots/screenshot_bus_raw_data.png)
 
 ---
 
