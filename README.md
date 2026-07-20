@@ -7,7 +7,7 @@
 
 &gt; A strategic, C-level analysis of **Summer 2025 APC stop-summary data** covering **127 bus and trackless trolley routes**, **18,088 stop-direction records**, and **4,293,991 weekly riders** — answering four executive questions on revenue, efficiency, growth, and resource allocation.
 
-![Executive Summary Dashboard](screenshots/screenshot_kpi_exec_summary_overview.png)
+🖼️ **[View Screenshot: Executive Summary Dashboard — KPI Cards & Key Metrics](screenshot_kpi_exec_summary_overview.png)**
 
 ---
 
@@ -21,6 +21,7 @@
 - [Methodology](#-methodology)
 - [Validation Numbers](#-validation-numbers)
 - [Assumptions & Notes](#-assumptions--notes)
+- [Dashboard Screenshots](#-dashboard-screenshots)
 - [How to Use This Workbook](#-how-to-use-this-workbook)
 
 ---
@@ -40,39 +41,33 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 
 ### 1️⃣ Revenue & Profitability
 
-![Revenue vs Cost — Break-Even Analysis](screenshot_revenue_vs_cost.png)
-
 - 💰 **64 routes (50%) operate below break-even** on the cost proxy ($2.25 fare per boarding; cost = $50/stop + $0.10 per weekly rider)
 - ⭐ **Route 47 is the star performer** with **167,195 weekly riders** — the clear #1 route in the network
 - 📉 Only 20 of 127 routes (Premier + High tiers) average above ~80K weekly riders; the bottom 26 routes form the underperforming tail
 
-![Performance Matrix — Stars vs. Dogs](screenshot_performance_matrix.png)
-
-![Route Tier Distribution](screenshot_tier_distribution.png)
+📊 [View Screenshot: Revenue vs Cost — Break-Even Analysis](screenshot_revenue_vs_cost.png) · 📊 [View Screenshot: Performance Matrix — Stars vs. Dogs](screenshot_performance_matrix.png) · 📊 [View Screenshot: Route Tier Distribution](screenshot_tier_distribution.png)
 
 ### 2️⃣ Operational Efficiency
-
-![Day Type Breakdown — Weekday vs. Weekend](screenshot_day_type_breakdown.png)
 
 - 📏 **Routes with &lt;200m stop spacing perform best** (~37K average weekly ridership) — tighter spacing correlates with higher demand capture
 - 📊 **Pareto concentration: the top 10% of stops carry 55.4% of all ridership**
 - 🛑 Network averages: 199m stop spacing, 43 boardings per stop
 
-### 3️⃣ Strategic Growth & Network Design
+📊 [View Screenshot: Day Type Breakdown — Weekday vs. Weekend](screenshot_day_type_breakdown.png)
 
-![Transfer Hubs — Top Multi-Route Stops](screenshot_transfer_hubs.png)
+### 3️⃣ Strategic Growth & Network Design
 
 - 🔄 **Frankford Transit Center is the #1 hub** — 12 routes, 36,797 combined weekly riders — followed by the 69th St Transit Center complex (~95K combined weekly riders)
 - 🚇 **39 routes are commuter-heavy** (&lt;15% weekend usage); only 1 route is weekend-heavy (&gt;30%), confirming a weekday-commuter-dominated network
 
-### 4️⃣ Resource Allocation
+📊 [View Screenshot: Transfer Hubs — Top Multi-Route Stops](screenshot_transfer_hubs.png)
 
-![Distance Analysis — Ridership Decay from Center](screenshot_distance_analysis.png)
+### 4️⃣ Resource Allocation
 
 - 🏙️ **34.5% of ridership occurs within 5km of the city center**, decaying sharply with distance (543 avg riders/stop at 0–2km vs. 38 beyond 30km)
 - ↔️ **Routes 47 and 23 show massive directional imbalances**, suggesting schedule-optimization opportunities by direction and day type
 
-![Directional Imbalance — Net Flow by Route](screenshot_directional_imbalance.png)
+📊 [View Screenshot: Distance Analysis — Ridership Decay from Center](screenshot_distance_analysis.png) · 📊 [View Screenshot: Directional Imbalance — Net Flow by Route](screenshot_directional_imbalance.png)
 
 ---
 
@@ -119,7 +114,7 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 | **Core ridership fields** | `Weekdays_O`, `Weekdays_1`, `Saturdays_`, `Saturdays1`, `Sundays_On`, `Sundays_Of` |
 | **Geography** | Latitude/longitude retained as numeric fields for map-ready analysis |
 
-![Raw APC Stop-Summary Data](screenshot_bus_raw_data.png)
+🖼️ **[View Screenshot: Raw APC Stop-Summary Data](screenshot_bus_raw_data.png)**
 
 ---
 
@@ -195,6 +190,24 @@ Analyze APC stop-level bus activity to identify high-volume routes and stops, se
 - Revenue/cost figures use the proxy assumptions above and are **directional, not accounting-grade**
 - Break-even classification depends on the cost proxy; sensitivity to fare and per-stop cost assumptions should be considered before operational decisions
 - Weekday figures in the source are per-day averages; weekly totals use weekday × 5
+
+---
+
+## 🖼️ Dashboard Screenshots
+
+Click any link to view the full dashboard screenshot:
+
+| # | Dashboard | Link |
+|---|---|---|
+| 1 | Executive Summary — KPI cards & key metrics | [View](screenshot_kpi_exec_summary_overview.png) |
+| 2 | Revenue vs Cost — break-even scatter chart | [View](screenshot_revenue_vs_cost.png) |
+| 3 | Performance Matrix — Stars vs. Dogs quadrants | [View](screenshot_performance_matrix.png) |
+| 4 | Tier Distribution — Premier/High/Medium/Low pie | [View](screenshot_tier_distribution.png) |
+| 5 | Day Type Breakdown — weekday vs. weekend | [View](screenshot_day_type_breakdown.png) |
+| 6 | Transfer Hubs — top multi-route stops | [View](screenshot_transfer_hubs.png) |
+| 7 | Distance Analysis — ridership decay from center | [View](screenshot_distance_analysis.png) |
+| 8 | Directional Imbalance — net flow by route | [View](screenshot_directional_imbalance.png) |
+| 9 | Raw Data — APC stop-summary source records | [View](screenshot_bus_raw_data.png) |
 
 ---
 
