@@ -7,7 +7,7 @@
 
 &gt; A strategic, C-level analysis of **Summer 2025 APC stop-summary data** covering **127 bus and trackless trolley routes**, **18,088 stop-direction records**, and **4,293,991 weekly riders** — answering four executive questions on revenue, efficiency, growth, and resource allocation.
 
-🖼️ **[View Screenshot: Executive Summary Dashboard — KPI Cards & Key Metrics](screenshot_kpi_exec_summary_overview.png)**
+🖼️ ![Executive Dashboard — KPI Cards & Key Metrics](Screenshot_Executive_Dashboard.png)
 
 ---
 
